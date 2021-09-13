@@ -31,7 +31,6 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3px;
-  /* border: 1px solid black; */
   text-align: center;
   width: 100%;
   margin: auto;
