@@ -22,11 +22,10 @@
   <header></header>
   <!-- Search-field -->
   <main class="main">
-    <div class="search-field mb-4">
+    <div class="search-field">
       <div class="search-box">
-        <input id="input-field" class="search-field" type="text" placeholder="Search your products here" />
-        <button type="button" class="btn btn-info search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
+        <input id="input-field" class="search-field" type="text" placeholder="Search your products" />
+        <button type="button" class="btn btn-info search-button rounded" id="search-btn" onclick="loadProducts()">
           Search
         </button>
       </div>
@@ -84,7 +83,7 @@
             </tbody>
           </table>
           <div class="parces text-center">
-            <button class="btn btn-info text-center">Buy Now</button>
+            <button class="btn btn-warning text-center" type="button">Buy Now</button>
           </div>
         </div>
       </div>
